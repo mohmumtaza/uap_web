@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <table>
+        <tr>
+            <th>Kode</th>
+            <th>Barang</th>
+            <th>Harga</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Barang A</td>
+            <td id="Harga_BarangA">10000</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Barang B</td>
+            <td id="Harga_BarangB">20000</td>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>Barang C</td>
+            <td id="Harga_BarangC">30000</td>
+        </tr>
+    </table>
+</head>
+
+<body>
+    <div>
+        <h1>Inputan User</h1>
+        <table>
+            <tr>
+                <td>Masukkan Kode</td>
+                <td>:</td>
+                <td>
+                    <input id="ID_Barang" type="value">
+                </td>
+            </tr>
+            <tr>
+                <td>Banyaknya Barang</td>
+                <td>:</td>
+                <td>
+                    <input id="Banyak_Barang" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="Submit" onclick="">
+                </td>
+                <td>
+                    <output></output>
+                </td>
+            </tr>
+        </table>
+        
+    </div>
+    <script>
+        
+        function beli()
+
+        let ID_Barang
+        
+        let Harga_BarangA
+        let Harga_BarangB
+        let Harga_BarangC
+        let Harga_Barang
+        let Total_harga
+
+        ID_Barang =
+        document.getElementById('ID_Barang')
+        
+            if (ID_Barang => 001)  {
+                Harga_Barang = 10000
+            }else if(ID_Barang => 002) {
+                Harga_Barang = 20000
+            }else if(ID_Barang => 003) {
+                Harga_Barang = 30000
+            }
+
+            Harga_Barang * Banyak_Barang == Total_harga
+
+            window:alert(Total_harga)
+
+    </script>
+    <div>
+    </div>
+</body>
+</html>
